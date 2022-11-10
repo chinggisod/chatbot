@@ -13,3 +13,9 @@ https://docs.google.com/spreadsheets/d/1wYq4lKjx_REt2sYf9ic6L2bCV_UalAIup2UDFmaH
 Google Docs: 
 
 https://docs.google.com/document/d/1nfwhjom3lzJMCXvBaAjHNsdfIaSUCcKX7iOnL_Uiqrg/edit
+
+
+構成図:
+
+
+https://app.diagrams.net/#Hchinggisod%2Fchatbot%2Fmain%2Fchatbot_plot.drawio
