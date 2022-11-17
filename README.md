@@ -24,10 +24,10 @@ https://app.diagrams.net/#Hchinggisod%2Fchatbot%2Fmain%2Fchatbot_plot.drawio
 **Response1:** 挨拶                                 **Question1:** ユーザーの＜名前＞ ?      **UserInput1:** ＜名前＞
 
 
-**Response2:** ＜名前＞に対応                        **Question2:** ＜現在の港＞ ?            **UserInput2:** ＜現在の港＞ 
+**Response2:** ＜名前＞に対応                        **Question2:** ＜乗り場＞           **UserInput2:** ＜乗り場＞ 
 
 
-**Response3:** ＜現在の港＞に対応                     **Question3:** ＜行き先＞?               **UserInput3:** ＜行き先＞
+**Response3:** ＜乗り場＞に対応                     **Question3:** ＜行き先＞?               **UserInput3:** ＜行き先＞
 
 
 **Response4:** ＜行き先＞に対応                       **Question4:** ＜乗る時間＞？       **UserInput4:** ＜乗る時間＞
