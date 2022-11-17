@@ -16,6 +16,7 @@ https://docs.google.com/document/d/1nfwhjom3lzJMCXvBaAjHNsdfIaSUCcKX7iOnL_Uiqrg/
 
 
 構成図:
+![chatbot_plot drawio](https://user-images.githubusercontent.com/72961603/202323984-ee085d03-d888-4f75-a6fb-bb4aeb08d7f3.png)
 
 
 https://app.diagrams.net/#Hchinggisod%2Fchatbot%2Fmain%2Fchatbot_plot.drawio
