@@ -32,7 +32,7 @@ https://app.diagrams.net/#Hchinggisod%2Fchatbot%2Fmain%2Fchatbot_plot.drawio
 **Response4:** ＜行き先＞に対応                       **Question4:** ＜乗る時間＞？       **UserInput4:** ＜乗る時間＞
 
 
-**Response5a:** ＜乗る時間＞に合った時間と情報を伝う    **Question5:** ころでよろしい？もう一度確認する？ **UserInput5:** <Yes> Or <No>
+**Response5a:** ＜乗る時間＞に合った時間と情報を伝う    **Question5:** ころでよろしい？もう一度確認する？ **UserInput5:** Yes Or No
   
   
 **Response5b:** ＜乗る時間＞は時間外ためもう一度入力お願い
