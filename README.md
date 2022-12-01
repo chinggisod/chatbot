@@ -5,7 +5,7 @@
 
 辞書：
 
-Google Sheets: 
+# Google Sheets: 
 
 https://docs.google.com/spreadsheets/d/1wYq4lKjx_REt2sYf9ic6L2bCV_UalAIup2UDFmaHXkA/edit#gid=0
 
@@ -21,7 +21,7 @@ Response2:
 
 https://docs.google.com/document/d/18WL3OFSBRP0y2w6Nqa0hIJIHSDftfOnWSfK81F_Oqn4/edit
 
-構成図:
+# 構成図:
 ![chatbot_plot drawio (1)](https://user-images.githubusercontent.com/72961603/202326699-5495f5fd-af7a-491d-8c5f-a56c45e11483.png)
 
 
