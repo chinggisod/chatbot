@@ -16,6 +16,15 @@ Response1:
 
 https://docs.google.com/document/d/1nfwhjom3lzJMCXvBaAjHNsdfIaSUCcKX7iOnL_Uiqrg/edit
 
+Response2:
+
+https://docs.google.com/document/d/1FPf-pS7xf8L0doebwCTPgMxLsSo7ubbqz34OcsMhrx4/edit
+
+
+Response3:
+
+https://docs.google.com/document/d/1q4JSFgRN4nvXks54ZUvv-jjno8zXS0hwYK8ZE3VJceU/edit
+
 
 Response4:
 
