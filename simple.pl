@@ -1,6 +1,6 @@
 # Define the timetable
 my @timetable1 = (
-    ['Imabari', 'Tomoura', 'Kinoura', 'Iwagi', 'Sashima', 'Yuge', 'Ikina', 'Habu'],
+    ['今治', '友浦', '木浦', '岩城', '佐島', '弓削', '生名', '土生'],
     ['6:25', '6:45', '7:00', '7:12', '7:19', '7:25', '7:30', '7:35'],
     ['7:50', '8:10', '8:25', '8:38', '8:45', '8:52', '8:58', '9:05'],
     ['9:50', '10:10', '10:30', '10:43', '10:50', '10:57', '11:03', '11:10'],
@@ -10,7 +10,7 @@ my @timetable1 = (
     ['18:40', '19:00', '19:15', '19:28', '19:35', '19:42', '19:48', '19:55']
 );
 my @timetable2 = (
-    ['Habu', 'Ikina', 'Yuge', 'Sashima', 'Iwagi', 'Kinoura', 'Tomoura', 'Imabari'],
+    ['土生', '生名', '弓削', '佐島', '岩城', '木浦', '友浦', '今治'],
     ['6:30', '6:35', '6:40', '6:46', '6:53', '7:05', '7:20', '7:40'],
     ['7:40', '7:45', '7:50', '7:56', '8:03', '8:15', '8:30', '8:50'],
     ['10:10', '10:17', '10:23', '10:30', '10:37', '10:50', '11:10', '11:30'],
@@ -36,10 +36,10 @@ for my $i (0..$#timetable2) {
 }
 
 # Ask for the current port and destination port
-print "What is your current port?\n";
+print "今、どこ～？（例：今治港、友浦港、木浦港、岩城港、佐島港、弓削港、生名港、土生港)\n";
 my $current_port = <>;
 chomp $current_port;
-print "What port do you want to go to?\n";
+print "行きたい場所を教えてほしいゾ。（例：今治港、友浦港、木浦港、岩城港、佐島港、弓削港、生名港、土生港）\n";
 my $destination_port = <>;
 chomp $destination_port;
 
@@ -48,19 +48,19 @@ my $direction;
 if (exists $port_indices1{$current_port} && exists $port_indices1{$destination_port}) {
     if ($port_indices1{$current_port} < $port_indices1{$destination_port}) {
         $direction = 1;
-        print($direction);
+        #print($direction);
     } else {
         $direction = 2;
-        print($direction);
+        #print($direction);
     }
 }
 if (!defined $direction) {
-    print "Invalid input. Please enter a valid current and destination port.\n";
+    print "オラ、その場所は知らないゾ～ \n";
     exit;
 }
 
 # Ask for the time the user wants to ride the ferry
-print "What time do you want to ride the ferry?\n";
+print "何時に行きたいんだ？（例：〇時に行きたい）\n";
 my $requested_time = <>;
 chomp $requested_time;
 
@@ -74,8 +74,8 @@ if ($direction == 1) {
 }
 
 # Print the departure and arrival times
-print "The nearest departure time is $departure_time.\n";
-print "The corresponding arrival time is $arrival_time.\n";
+print "$departure_time に出て〜、\n";
+print "$arrival_time に $destination_port に着く、 快速線があるゾ。\n";
 
 # Find the nearest departure time in the given timetable
 sub find_nearest_departure_time {
