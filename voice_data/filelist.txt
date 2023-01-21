@@ -1,6 +1,7 @@
-# �����t�@�C�����X�g
-# �����C�����t�@�C�����i�^�u��؂�j
-# �����t�@�C�����͔��p�p�����ia-zA-z0-9�j���g�p����
-����ɂ���	konnichiwa.mp3
-�n���[	hello.mp3
-���͂悤	ohayou.mp3
+# 音声ファイルリスト
+# 発音，音声ファイル名（タブ区切り）
+# 音声ファイル名は半角英数字（a-zA-z0-9）を使用する
+こんにちは	konnichiwa.mp3
+ハロー	hello.mp3
+おはよう	ohayou.mp3
+行きたい場所を教えてほしいゾ。（例：今治港、友浦港、木浦港、岩城港、佐島港、弓削港、生名港、土生港）	dokoiku.wav
